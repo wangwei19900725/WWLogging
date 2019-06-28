@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12D54CD034F391683C776EE3A70BCAF5 /* WWLogging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF1CDA1AAAB4D548832672C404F283C /* WWLogging-dummy.m */; };
+		16823015ED42CAD6F064D4FEF42D7A33 /* Pods-WWLogging_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5AC63ED4BA0087D050DD63D3487D45 /* Pods-WWLogging_Example-dummy.m */; };
+		31DEA5ACE0D0923B95C1E4633E37B353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		42F689B79496B90ACC3A2CA9A03C6877 /* WWLogging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E4AAF15758E522EEF91C32D3E63F54 /* WWLogging-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AB8D5CB9C88256214A5254B4195B87F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6D6285E6B1D3A0C3CC57DC9F5BF75E9C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D54562C975596DF353855A0C5E5BCF5 /* ReplaceMe.m */; };
+		766A5C1ED2799F7F0559B52ED08BD2EE /* Pods-WWLogging_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7818CD644720FD98D130F8E8AA66BA0C /* Pods-WWLogging_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3D0C17EAC7C264F8B6AB1E3774F414A /* Pods-WWLogging_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4E7FE5F17A8D96BB64E77FCAB47037 /* Pods-WWLogging_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E653C46B34BDA193AADCE938DDF4E77A /* Pods-WWLogging_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C114416BD3C06DB29BCCE46BE7E2F /* Pods-WWLogging_Tests-dummy.m */; };
+		E8AE247DDC0F9DA3AD94ECFA3EF37BDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		334DE91238D1F879088D78A38204075F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 684E2712262C7CA3F1629EDE427A4C65;
+			remoteInfo = WWLogging;
+		};
+		896E291EF8A07E1CEED2B457197C8AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 748227A096F99EA068A343487101F59E;
+			remoteInfo = "Pods-WWLogging_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075221813CB761A275049D8F8D6ABC1A /* Pods-WWLogging_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WWLogging_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1010780C930BF772A6DDF67D4BFC53B2 /* WWLogging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WWLogging.modulemap; sourceTree = "<group>"; };
+		133C114416BD3C06DB29BCCE46BE7E2F /* Pods-WWLogging_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WWLogging_Tests-dummy.m"; sourceTree = "<group>"; };
+		19C562BC039CA682B1CBCC76A89224A5 /* Pods-WWLogging_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WWLogging_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		21DAE021BE2069DCDDF548D9BC5D0211 /* WWLogging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WWLogging.xcconfig; sourceTree = "<group>"; };
+		2E558804816EA5D80F09C44AEC9265B3 /* WWLogging-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WWLogging-Info.plist"; sourceTree = "<group>"; };
+		36211633EF2A0C42D0F0BD5EA00F44EE /* Pods_WWLogging_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWLogging_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D27D45358F47B90DA2227E72142BF7 /* Pods-WWLogging_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WWLogging_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		43C90D8166D3740D0D3F575F0434BE17 /* Pods_WWLogging_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWLogging_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44545851DF8666A779BBAA58C3BB81AB /* Pods-WWLogging_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WWLogging_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59B466333C697F063594967639963867 /* Pods-WWLogging_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WWLogging_Example-Info.plist"; sourceTree = "<group>"; };
+		5A5AC63ED4BA0087D050DD63D3487D45 /* Pods-WWLogging_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WWLogging_Example-dummy.m"; sourceTree = "<group>"; };
+		5DF1CDA1AAAB4D548832672C404F283C /* WWLogging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WWLogging-dummy.m"; sourceTree = "<group>"; };
+		5F9E419F6B81400830407C7790A6969A /* Pods-WWLogging_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WWLogging_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67848F9A1332C0B0904C5C358498DBEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6C8F80E86B460F88FF3F81571E5AC6D9 /* Pods-WWLogging_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WWLogging_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7818CD644720FD98D130F8E8AA66BA0C /* Pods-WWLogging_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WWLogging_Example-umbrella.h"; sourceTree = "<group>"; };
+		7F4E7FE5F17A8D96BB64E77FCAB47037 /* Pods-WWLogging_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WWLogging_Tests-umbrella.h"; sourceTree = "<group>"; };
+		81BA67C2E3BDF7455C138FB03ECECB17 /* Pods-WWLogging_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WWLogging_Example.modulemap"; sourceTree = "<group>"; };
+		88C13CD11020805B470E2E3C08412856 /* WWLogging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWLogging-prefix.pch"; sourceTree = "<group>"; };
+		8923E6831C707A8510BC33D34A9CD5C9 /* Pods-WWLogging_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WWLogging_Tests-Info.plist"; sourceTree = "<group>"; };
+		98E4AAF15758E522EEF91C32D3E63F54 /* WWLogging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWLogging-umbrella.h"; sourceTree = "<group>"; };
+		9D54562C975596DF353855A0C5E5BCF5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WWLogging/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDBA47B8D6452B2A725FF43278AB4F2 /* Pods-WWLogging_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WWLogging_Tests.modulemap"; sourceTree = "<group>"; };
+		A3A95EF6FFB2C4895ED179AEAB9C5077 /* Pods-WWLogging_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WWLogging_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A6D711469498B97245BCE27CAE7FEE1A /* Pods-WWLogging_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WWLogging_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D81568B5E1ACD4EA277207B5B1EE25BF /* Pods-WWLogging_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WWLogging_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DEF880E9B69EE2DFC68F62644EA967C5 /* WWLogging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WWLogging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA0328122762079D0A596BF2DC3C363 /* WWLogging.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WWLogging.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		FC7A8153D15169C57BBD7A7118564487 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E46C5E10C2F22E1268C07912D1640E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB8D5CB9C88256214A5254B4195B87F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E34E887D8425683FBD3977EA97D7038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DEA5ACE0D0923B95C1E4633E37B353 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E503B391F69B822E194DCEB5D09AF120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AE247DDC0F9DA3AD94ECFA3EF37BDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D651EA75E69A5AED549EB89847F8B5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC7A8153D15169C57BBD7A7118564487 /* LICENSE */,
+				67848F9A1332C0B0904C5C358498DBEC /* README.md */,
+				FBA0328122762079D0A596BF2DC3C363 /* WWLogging.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		31DF748C3470A0FDFD0284F8D352FFD1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5671D8ADA9356983EC99392DE68A9E76 /* Pods-WWLogging_Example */,
+				795C982AF29081F0CD2B576C4ADE2B7D /* Pods-WWLogging_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5671D8ADA9356983EC99392DE68A9E76 /* Pods-WWLogging_Example */ = {
+			isa = PBXGroup;
+			children = (
+				81BA67C2E3BDF7455C138FB03ECECB17 /* Pods-WWLogging_Example.modulemap */,
+				44545851DF8666A779BBAA58C3BB81AB /* Pods-WWLogging_Example-acknowledgements.markdown */,
+				19C562BC039CA682B1CBCC76A89224A5 /* Pods-WWLogging_Example-acknowledgements.plist */,
+				5A5AC63ED4BA0087D050DD63D3487D45 /* Pods-WWLogging_Example-dummy.m */,
+				A3A95EF6FFB2C4895ED179AEAB9C5077 /* Pods-WWLogging_Example-frameworks.sh */,
+				59B466333C697F063594967639963867 /* Pods-WWLogging_Example-Info.plist */,
+				7818CD644720FD98D130F8E8AA66BA0C /* Pods-WWLogging_Example-umbrella.h */,
+				A6D711469498B97245BCE27CAE7FEE1A /* Pods-WWLogging_Example.debug.xcconfig */,
+				D81568B5E1ACD4EA277207B5B1EE25BF /* Pods-WWLogging_Example.release.xcconfig */,
+			);
+			name = "Pods-WWLogging_Example";
+			path = "Target Support Files/Pods-WWLogging_Example";
+			sourceTree = "<group>";
+		};
+		57F51ADF9D05AED5370A2B837E50A781 /* WWLogging */ = {
+			isa = PBXGroup;
+			children = (
+				9D54562C975596DF353855A0C5E5BCF5 /* ReplaceMe.m */,
+				04D651EA75E69A5AED549EB89847F8B5 /* Pod */,
+				DC7441D39E4CCD09709C9F211DB521CB /* Support Files */,
+			);
+			name = WWLogging;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6E4DEC397CE4A5659E3FE2F1A3CF3989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36211633EF2A0C42D0F0BD5EA00F44EE /* Pods_WWLogging_Example.framework */,
+				43C90D8166D3740D0D3F575F0434BE17 /* Pods_WWLogging_Tests.framework */,
+				DEF880E9B69EE2DFC68F62644EA967C5 /* WWLogging.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		795C982AF29081F0CD2B576C4ADE2B7D /* Pods-WWLogging_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9DDBA47B8D6452B2A725FF43278AB4F2 /* Pods-WWLogging_Tests.modulemap */,
+				5F9E419F6B81400830407C7790A6969A /* Pods-WWLogging_Tests-acknowledgements.markdown */,
+				37D27D45358F47B90DA2227E72142BF7 /* Pods-WWLogging_Tests-acknowledgements.plist */,
+				133C114416BD3C06DB29BCCE46BE7E2F /* Pods-WWLogging_Tests-dummy.m */,
+				8923E6831C707A8510BC33D34A9CD5C9 /* Pods-WWLogging_Tests-Info.plist */,
+				7F4E7FE5F17A8D96BB64E77FCAB47037 /* Pods-WWLogging_Tests-umbrella.h */,
+				075221813CB761A275049D8F8D6ABC1A /* Pods-WWLogging_Tests.debug.xcconfig */,
+				6C8F80E86B460F88FF3F81571E5AC6D9 /* Pods-WWLogging_Tests.release.xcconfig */,
+			);
+			name = "Pods-WWLogging_Tests";
+			path = "Target Support Files/Pods-WWLogging_Tests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A3B316DA8353F4086927EE521436D367 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57F51ADF9D05AED5370A2B837E50A781 /* WWLogging */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A3B316DA8353F4086927EE521436D367 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6E4DEC397CE4A5659E3FE2F1A3CF3989 /* Products */,
+				31DF748C3470A0FDFD0284F8D352FFD1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC7441D39E4CCD09709C9F211DB521CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1010780C930BF772A6DDF67D4BFC53B2 /* WWLogging.modulemap */,
+				21DAE021BE2069DCDDF548D9BC5D0211 /* WWLogging.xcconfig */,
+				5DF1CDA1AAAB4D548832672C404F283C /* WWLogging-dummy.m */,
+				2E558804816EA5D80F09C44AEC9265B3 /* WWLogging-Info.plist */,
+				88C13CD11020805B470E2E3C08412856 /* WWLogging-prefix.pch */,
+				98E4AAF15758E522EEF91C32D3E63F54 /* WWLogging-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WWLogging";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3910098D1BF585AE37B12E40050CC69E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D0C17EAC7C264F8B6AB1E3774F414A /* Pods-WWLogging_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85E6DAF24915566DD2E8EF1352154D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766A5C1ED2799F7F0559B52ED08BD2EE /* Pods-WWLogging_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB1BBEAC5D4A8A3CADAFA45EF52913F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F689B79496B90ACC3A2CA9A03C6877 /* WWLogging-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		684E2712262C7CA3F1629EDE427A4C65 /* WWLogging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD09E7A7B150EE7E11D25A41DC5D4528 /* Build configuration list for PBXNativeTarget "WWLogging" */;
+			buildPhases = (
+				FEB1BBEAC5D4A8A3CADAFA45EF52913F /* Headers */,
+				7ED7B09858CEB3A5EBC6249D633E9B0B /* Sources */,
+				6E34E887D8425683FBD3977EA97D7038 /* Frameworks */,
+				3EB9EB9EDEEDCE970CA6138E4051313D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWLogging;
+			productName = WWLogging;
+			productReference = DEF880E9B69EE2DFC68F62644EA967C5 /* WWLogging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		748227A096F99EA068A343487101F59E /* Pods-WWLogging_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D859164470F4DF12430E3D880AA47857 /* Build configuration list for PBXNativeTarget "Pods-WWLogging_Example" */;
+			buildPhases = (
+				C85E6DAF24915566DD2E8EF1352154D2 /* Headers */,
+				2829B24BABFADFABA772F5F9C2EFCAF1 /* Sources */,
+				E503B391F69B822E194DCEB5D09AF120 /* Frameworks */,
+				B88B108A13FC6B43363F34B0ABF84ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AB029552C5F6B252734C4DA71C6A663 /* PBXTargetDependency */,
+			);
+			name = "Pods-WWLogging_Example";
+			productName = "Pods-WWLogging_Example";
+			productReference = 36211633EF2A0C42D0F0BD5EA00F44EE /* Pods_WWLogging_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E7DB8A767C6FB00670A3AA0763EF160 /* Pods-WWLogging_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D322B9C8A514B255397C7D332B00B634 /* Build configuration list for PBXNativeTarget "Pods-WWLogging_Tests" */;
+			buildPhases = (
+				3910098D1BF585AE37B12E40050CC69E /* Headers */,
+				ADD7A85882C3E7F654DBBCBA6239C41C /* Sources */,
+				55E46C5E10C2F22E1268C07912D1640E /* Frameworks */,
+				2DD98D59519014138C4825981B7775F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				091ED78BBDF45A89D041015F4C350362 /* PBXTargetDependency */,
+			);
+			name = "Pods-WWLogging_Tests";
+			productName = "Pods-WWLogging_Tests";
+			productReference = 43C90D8166D3740D0D3F575F0434BE17 /* Pods_WWLogging_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6E4DEC397CE4A5659E3FE2F1A3CF3989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				748227A096F99EA068A343487101F59E /* Pods-WWLogging_Example */,
+				8E7DB8A767C6FB00670A3AA0763EF160 /* Pods-WWLogging_Tests */,
+				684E2712262C7CA3F1629EDE427A4C65 /* WWLogging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DD98D59519014138C4825981B7775F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB9EB9EDEEDCE970CA6138E4051313D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88B108A13FC6B43363F34B0ABF84ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2829B24BABFADFABA772F5F9C2EFCAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16823015ED42CAD6F064D4FEF42D7A33 /* Pods-WWLogging_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ED7B09858CEB3A5EBC6249D633E9B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6285E6B1D3A0C3CC57DC9F5BF75E9C /* ReplaceMe.m in Sources */,
+				12D54CD034F391683C776EE3A70BCAF5 /* WWLogging-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD7A85882C3E7F654DBBCBA6239C41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E653C46B34BDA193AADCE938DDF4E77A /* Pods-WWLogging_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		091ED78BBDF45A89D041015F4C350362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WWLogging_Example";
+			target = 748227A096F99EA068A343487101F59E /* Pods-WWLogging_Example */;
+			targetProxy = 896E291EF8A07E1CEED2B457197C8AFB /* PBXContainerItemProxy */;
+		};
+		2AB029552C5F6B252734C4DA71C6A663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WWLogging;
+			target = 684E2712262C7CA3F1629EDE427A4C65 /* WWLogging */;
+			targetProxy = 334DE91238D1F879088D78A38204075F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		018C514C0CFFA9B404124FD69982F9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21DAE021BE2069DCDDF548D9BC5D0211 /* WWLogging.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WWLogging/WWLogging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WWLogging/WWLogging-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WWLogging/WWLogging.modulemap";
+				PRODUCT_MODULE_NAME = WWLogging;
+				PRODUCT_NAME = WWLogging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		13C699C830E7EBB2E78029820E21AA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C8F80E86B460F88FF3F81571E5AC6D9 /* Pods-WWLogging_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WWLogging_Tests/Pods-WWLogging_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WWLogging_Tests/Pods-WWLogging_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		85ED447EA4A0B5E6438BB3425F691B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81568B5E1ACD4EA277207B5B1EE25BF /* Pods-WWLogging_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WWLogging_Example/Pods-WWLogging_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WWLogging_Example/Pods-WWLogging_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A628AB61C5A4D76894C20FFC5D70A3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21DAE021BE2069DCDDF548D9BC5D0211 /* WWLogging.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WWLogging/WWLogging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WWLogging/WWLogging-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WWLogging/WWLogging.modulemap";
+				PRODUCT_MODULE_NAME = WWLogging;
+				PRODUCT_NAME = WWLogging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BCA36330FCCFFFFFB1E990FAEA7CCD7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075221813CB761A275049D8F8D6ABC1A /* Pods-WWLogging_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WWLogging_Tests/Pods-WWLogging_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WWLogging_Tests/Pods-WWLogging_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F734DE10815A98632776AD7469C9581D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D711469498B97245BCE27CAE7FEE1A /* Pods-WWLogging_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WWLogging_Example/Pods-WWLogging_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WWLogging_Example/Pods-WWLogging_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D322B9C8A514B255397C7D332B00B634 /* Build configuration list for PBXNativeTarget "Pods-WWLogging_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA36330FCCFFFFFB1E990FAEA7CCD7A /* Debug */,
+				13C699C830E7EBB2E78029820E21AA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D859164470F4DF12430E3D880AA47857 /* Build configuration list for PBXNativeTarget "Pods-WWLogging_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F734DE10815A98632776AD7469C9581D /* Debug */,
+				85ED447EA4A0B5E6438BB3425F691B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD09E7A7B150EE7E11D25A41DC5D4528 /* Build configuration list for PBXNativeTarget "WWLogging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A628AB61C5A4D76894C20FFC5D70A3BF /* Debug */,
+				018C514C0CFFA9B404124FD69982F9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

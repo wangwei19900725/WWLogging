@@ -1,0 +1,6 @@
+framework module WWLogging {
+  umbrella header "WWLogging-umbrella.h"
+
+  export *
+  module * { export * }
+}

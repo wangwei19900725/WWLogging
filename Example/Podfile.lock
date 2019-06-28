@@ -1,0 +1,16 @@
+PODS:
+  - WWLogging (0.1.0)
+
+DEPENDENCIES:
+  - WWLogging (from `../`)
+
+EXTERNAL SOURCES:
+  WWLogging:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WWLogging: 37c3d80b3827997c6585700cb5d30629a3d8f898
+
+PODFILE CHECKSUM: 25214fc5021e5829c83496573daf1beed2e67b2b
+
+COCOAPODS: 1.7.0
